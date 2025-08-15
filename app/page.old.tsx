@@ -1,5 +1,6 @@
+import React from "react";
 
-export default function Home(){
+const ComingSoonPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-blue-100 to-blue-200 text-gray-900 flex flex-col items-center justify-center px-4 py-12">
       
@@ -67,3 +68,4 @@ export default function Home(){
   );
 };
 
+export default ComingSoonPage;

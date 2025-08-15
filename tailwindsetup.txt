@@ -1,3 +1,11 @@
+After nextjs setup and npm install
+
+follow this 
+https://tailwindcss.com/docs/installation/framework-guides/nextjs
+
+ignore the below *****************
+
+
 1️⃣ Install the correct dependencies
 npm install -D tailwindcss @tailwindcss/postcss autoprefixer
 
