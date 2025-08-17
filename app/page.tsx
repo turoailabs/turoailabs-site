@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Home() {
   return (
     <div className="relative min-h-screen flex flex-col px-4 py-6 sm:px-8 md:px-12 lg:px-24 
-      bg-gradient-to-br from-pink-900 via-fuchsia-700 to-purple-900 text-gray-100 overflow-hidden">
+      bg-gradient-to-br from-indigo-950 via-violet-700 to-purple-800 text-gray-100 overflow-hidden">
 
       {/* HEADER */}
       <header className="w-full max-w-6xl mb-8 sm:mb-12 flex justify-between items-start relative z-10">
@@ -22,8 +22,8 @@ export default function Home() {
       {/* MAIN */}
       <main className="max-w-4xl flex-1 relative z-10">
         <h2 className="font-extrabold leading-tight text-center sm:text-left">
-          <span className="block text-3xl sm:text-4xl md:text-5xl text-pink-200">We are</span>
-          <span className="block text-4xl sm:text-5xl md:text-6xl text-fuchsia-400">
+          <span className="block text-3xl sm:text-4xl md:text-5xl text-indigo-200">We are</span>
+          <span className="block text-4xl sm:text-5xl md:text-6xl text-violet-400">
             Launching <span className="text-purple-300">Soon </span>
           </span>
         </h2>
